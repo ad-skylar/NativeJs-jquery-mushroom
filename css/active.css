@@ -1,0 +1,527 @@
+html,body{
+    background: #fff;
+}
+.nav-box-wrapper{
+    background: #f46;
+    height: 47px;
+    margin-bottom: 20px;
+}
+.small_logo{
+    width: 124px;
+    height: 28px;
+    margin-top: 10px;
+    overflow: hidden;
+    background: url("../images/icon1.png");
+}
+.fastbuy{
+    margin-left: 27px
+}
+.fastbuy a{
+    float: left;
+    color: #fff;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 2;
+    margin: 10px 30px 0;
+    padding: 0 3px;
+}
+.line{
+    border-bottom: 3px solid #fff;
+
+}
+.service-lists {
+    margin-top: 10px;
+}
+.service-lists div{
+    float: left;
+    margin-left: 20px;
+}
+.service-lists i {
+    background: url("../images/icon2.png") no-repeat 0 0;
+    display: inline-block;
+    width: 28px;
+    height: 28px;
+    vertical-align: middle;
+}
+.service-lists div:nth-of-type(2) i{
+    background-position: 0 -36px;
+}
+.service-lists div:nth-of-type(3) i{
+    background-position: 0 -72px;
+}
+.service-lists span {
+    display: inline-block;
+    line-height: 28px;
+    color: #fff;
+    font-size: 14px;
+}
+
+/*banner*/
+.active-banner{
+    height: 400px;
+    background: #fff;
+}
+
+.left-top-banner{
+    width: 960px;
+    height: 400px;
+    position: relative;
+    background: grey;
+    overflow: hidden;
+}
+.banner_img{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.active-banner .banner-show{
+    z-index: 1;
+    left: 0;
+}
+.banner_img a{
+    z-index: 0;
+    position: absolute;
+}
+.tab{
+    width: 90px;
+    height: 20px;
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    z-index: 10;
+    margin-left: -40px;
+    background: #fff;
+    padding: 3px 10px;
+    border-radius: 15px;
+}
+.tab span{
+    width: 18px;
+    height: 18px;
+    margin-right: 3px;
+    background: #eee;
+    border-radius: 50%;
+    display: inline-block;
+}
+.left{
+    position: absolute;
+    top: 50%;
+    margin-top: -24px;
+    width: 28px;
+    height: 45px;
+    z-index: 10;
+    opacity: .4;
+    float: left;
+    font-size: 20px;
+    background: #000;
+    text-align: center;
+    line-height: 45px;
+    color: #fff;
+    display: none;
+    cursor: pointer;
+}
+.right{
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    margin-top: -24px;
+    width: 28px;
+    height: 45px;
+    z-index: 10;
+    opacity: .4;
+    margin-left: 931px;
+    font-size: 20px;
+    background: #000;
+    text-align: center;
+    line-height: 45px;
+    display: none;
+    cursor: pointer;
+}
+.tab .span-bj{
+    background: deeppink;
+}
+/*right*/
+.right-top-banner{
+    height: 398px;
+    width: 215px;
+    border: 1px solid #ddd;
+    overflow: hidden;
+}
+.right-top-banner a{
+    display: block;
+    margin: 13px auto 0;
+    height: 180px;
+    width: 190px;
+    overflow: hidden;
+    background: #eee
+}
+/*秒杀*/
+.skill{
+ height: 55px;
+    position: relative;
+    z-index: 999;
+}
+.nav-box{
+    font-size: 22px;
+    z-index: 22;
+    color: #999;
+    height: 55px;
+    background: #323232;
+    position: relative;
+    z-index:999;
+    width: 100%;
+}
+.skill-box{
+    position: relative;
+    overflow: hidden;
+    height: 55px;
+}
+.skill-wrap{
+    width: 4384px;
+    top: 0;
+    position: absolute;
+    z-index: 2;
+    left: -798px;
+}
+.nav-item{
+    width: 133px;
+    height: 55px;
+    font-size: 20px;
+    line-height: 55px;
+    color: #fff;
+    float: left;
+    text-align: center;
+    position: relative;
+    padding-top: 10px;
+}
+.nav-item .skill-time{
+    font-size: 18px;
+    line-height: 1;
+}
+.active-arrow {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    margin: 0 auto;
+}
+.active-arrow :after{
+    content: " ";
+    width: 0;
+    height: 0;
+    border: 10px solid transparent;
+    border-top-color: #fdcb00;
+    position: absolute;
+    left: 50%;
+    bottom: -20px;
+    margin-left: -10px;
+}
+.center {
+    width: 136px;
+    height: 55px;
+    background: #fdcb00;
+    margin: 0 auto;
+}
+.nav-item .skill-status {
+    font-size: 14px;
+    line-height: 1;
+    padding-top: 4px;
+    font-weight: 700;
+}
+.skill-wrap .nav-item:first-of-type{
+    width: 532px;
+}
+.skill-wrap .nav-item:last-of-type{
+    width: 532px;
+}
+.controller {
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.ctrl-item {
+    position: absolute;
+    z-index: 6;
+    cursor: pointer;
+}
+.controller  .next, .controller .prev {
+    background: url("../images/lr.png") no-repeat;
+    width: 20px;
+    height: 55px;
+    overflow: hidden;
+    text-align: left;
+    z-index: 9999999;
+    position: absolute;
+}
+.controller .prev{
+    left: 0;
+    background-position: 0 0;
+}
+.controller .shade{
+    display: none;
+}
+.controller  .next{  right: 0;
+    background-position: 0 -55px;
+}
+.logo{
+    width: 220px;
+    height: 52px;
+    float: left;
+}
+.main{
+    min-height: 1000px;
+}
+.content-body{
+    width: 960px;
+}
+.aside {
+    margin-top: 20px;
+    width: 215px;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    background: #fff;
+    font-size: 14px;
+    position: absolute;
+    left: 50%;
+    margin-left: 385px;
+}
+.active{
+    width: 136px;
+    color: #000;
+}
+.count-down-box {
+    width: 100%;
+    height: 40px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+.count-down-box span {
+    font-size: 20px;
+    color: #333;
+    line-height: 2;
+}
+.count-down-box .h,.count-down-box .m,.count-down-box .s{
+    background: #000;
+   color:#fff;
+    padding: 5px;
+    margin: 0 3px;
+    border-radius: 5px;
+}
+.item-list .item  {
+    width: 468px;
+    height: 216px;
+    margin: 0 20px 20px 0;
+    border: 1px solid #ccc;
+    position: relative;
+    overflow: hidden;
+}
+.item-list .active_list{
+    display: none;
+}
+.item-list .active_list:nth-of-type(10){
+    display: block;
+}
+.item-list .item:nth-of-type(even){
+    margin-right: 0;
+}
+.item .item-img {
+    display: block;
+    height: 190px;
+    width: 190px;
+    margin: 13px;
+    background: #fff url("../images/itembj.png") 50%;
+    background-size: cover;
+    overflow: hidden;
+}
+.item-img img{
+    width: 100%;
+    height: 100%;
+    border:none;
+}
+.item .item-detail {
+    height: 186px;
+    width: 232px;
+    _width: 210px;
+    padding: 15px;
+    padding-left: 5px;
+    display: block;
+    overflow: hidden;
+}
+.item .item-detail .title {
+    color: #333;
+    font-size: 18px;
+    height: 18px;
+    line-height: 1.2;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+    border-bottom: 1px dotted #ccc;
+}
+.item .price {
+    color: #424242;
+    line-height: 32px;
+    height: 32px;
+    font-size: 14px;
+    overflow: hidden;
+}
+.item .price .cur {
+    font-size: 25px;
+    font-weight: 500;
+    color: #fe4566;
+    margin: 0 5px;
+}
+.status-bar-text {
+    position: relative;
+    color: #333;
+    width: 100%;
+    margin-top: 20px;
+    font-size: 14px;
+    color: #aaa;
+}
+.status-bar {
+    border: 1px solid #ff71b5;
+    border-radius: 3px;
+    width: 60%;
+    height: 10px;
+    overflow: hidden;
+    position: relative;
+}
+.item .buy-btn-box {
+    bottom: 15px;
+    font-size: 14px;
+    overflow: hidden;
+    height: 34px;
+}
+.buy-btn {
+    background-color: #ff4163;
+    border: 1px solid #ff4163;
+}
+.item .left-text {
+    font-size: 14px;
+    margin-left: 15px;
+}
+.buy-btn{
+    width: 110px;
+    height: 32px;
+    font-size: 17px;
+    line-height: 32px;
+    border-radius: 3px;
+    text-align: center;
+    display: inline-block;
+    box-sizing: border-box;
+    color: #fff;
+    background: #fe4566;
+}
+.left-text {
+    margin-left: 15px;
+    color: silver;
+}
+.buy-btn-box{
+    margin-top: 20px;
+}
+.aside .logo {
+    width: 80%;
+    margin: 0 auto 20px;
+    text-align: center;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #eee;
+}
+.category li {
+    width: 50%;
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: 800;
+    float: left;
+}
+.code-box {
+    width: 162px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.code-box img{
+    width: 100%;
+    height: 162px;
+    border: none;
+}
+.code-box .code_text {
+    text-align: center;
+    font-size: 12px;
+    color: #666;
+    margin: 20px 0 25px;
+}
+.footer-btn {
+    display: inline-block;
+    background: #fdcb00;
+    height: 40px;
+    line-height: 40px;
+    width: 130px;
+    font-size: 14px;
+    font-weight: 700;
+    margin: 0 28px;
+    color: #333;
+    float: left;
+}
+.status-bar-progress {
+    position: absolute;
+    height: 10px;
+    width: 5%;
+    background-color: #ffbddd;
+    z-index: 1;
+}
+.soldout-icon{
+    position: absolute;
+    z-index: 1;
+    right: 0;
+    bottom: 50px;
+    width: 79px;
+    height: 90px;
+    background: url("../images/out.png") no-repeat;
+    background-size: auto 100%;
+    display: none;
+}
+.skill-box{
+    z-index: 999;
+}
+.content-footer {
+    margin: 0 auto;
+    height: 40px;
+    padding: 20px 0 20px 0;
+    text-align: center;
+}
+.fixed{
+    z-index: 5;
+    top: 55px;
+    position: fixed
+}
+/*即将售馨*/
+.content-body2{
+    width: 960px;
+    display: none;
+}
+.full-col {
+    width: 100%;
+    margin-bottom: 20px;
+    height: 40px;
+}
+.title2{
+    color: #333;
+    font-size: 20px;
+    line-height: 40px;
+}
+.left-tip {
+    color: #666;
+    float: right;
+    font-size: 16px;
+    line-height: 40px;
+}
+.auto{
+top: inherit;
+bottom: 267px;
+}
+.item-lists .item {
+    width: 468px;
+    height: 216px;
+    margin: 0 10px 20px 0;
+    border: 1px solid #ccc;
+    position: relative;
+    overflow: hidden;
+}

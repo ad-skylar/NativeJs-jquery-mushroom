@@ -1,0 +1,159 @@
+.logo_wrap {
+    width: 100%;
+    background-color: #fff;
+    padding: 20px 0;
+}
+.content{
+    height: 600px;
+    width: 100%;
+    background: url("../images/bj.png") no-repeat center center;
+}
+.login{
+    width: 356px;
+    display: inline;
+    padding: 0 0 30px 44px;
+    background-color: #ffeceb;
+    margin-top: 80px;
+    opacity: .9
+}
+.login_mod_tab{
+    height: 70px;
+}
+
+.tab_line {
+    color: #fe617a;
+    height: 41px;
+    border-bottom: 2px solid #ff4066;
+}
+.login_mod_tab a:first-of-type{
+    margin-right:140px;
+}
+.lo_mod{
+    float: left;
+    margin-top: 20px;
+    height: 43px;
+    line-height: 42px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 700;
+    color: #3c3c3c;
+
+}
+.sub {
+    display: inline;
+    float: left;
+    border: none;
+    width: 314px;
+    height: 40px;
+    background: #ff5777;
+    border-radius: 2px;
+    cursor: pointer;
+    color: #fff;
+}
+.login_form{
+    width: 356px;
+    height: 248px;
+    margin:0 auto;
+}
+.pwd,.user{
+    height: 40px;
+    width: 300px;
+    background: none;
+    border: 1px solid #ccc;
+    padding: 0 6px;
+    margin-top: 20px;
+}
+.pwd{
+    margin-bottom: 20px;
+}
+.other_login{
+    width: 356px;
+    height: 25px;
+    margin: 0 auto;
+    line-height: 16px;
+}
+.other_login img{
+    border:none;
+    float: left;
+    margin-right: 6px;
+}
+.other_login a{
+    margin-right: 47px;
+    text-decoration: none;
+    color: #333;
+    float: left;
+    line-height: 23px;
+    font-size: 12px;
+}
+/*无密码登录*/
+.country_select {
+    float: left;
+    width: 110px;
+    height: 40px;
+    margin-right: 10px;
+    line-height: 1.5;
+    border: 1px solid #c4c4c4;
+    border-radius: 0;
+    color: #333;
+    font-size: 14px;
+    padding: 4px 35px 4px 16px;
+    background: url("../images/icon3.png")100% no-repeat;
+    outline: 0;
+    -webkit-appearance: none;/*让select小箭头消失*/
+}
+.short_text {
+    background: none!important;
+    border: 1px solid #ccc;
+    padding: 0 6px;
+}
+ .cell{
+    background: none!important;
+    border: 1px solid #ccc;
+    padding: 0 6px;
+     float: left;
+     height: 38px;
+     width: 180px;
+}
+.tel_code{
+    display: inline-block;
+    width: 110px;
+    height: 42px;
+    line-height: 42px;
+    text-align: center;
+    margin-right: 10px;
+    color: #fff;
+    background-color: #ff5777;
+    margin-top: 30px;
+}
+#form_show2{
+    display: none;
+}
+.ra {
+    float: right;
+    margin-right: 40px;
+    color: #666;
+    text-decoration: underline;
+    margin-top: 5px;
+}
+.register_form{
+    height: 340px;
+}
+#open{
+    font-size: 18px;
+}
+#open span{
+    color: red;
+}
+.error_tip {
+    background: url(http://s6.mogujie.cn/pic/140408/o613k_kqzfunswozbg2s2ugfjeg5sckzsew_16x16.png) 12px no-repeat #fffff8;
+    border: 1px solid #ffd797;
+    height: 30px;
+    line-height: 30px;
+    color: #ff1877;
+    width: 273px;
+    padding-left: 40px;
+    margin-bottom: 9px;
+    display: none;
+}
+
+

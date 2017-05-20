@@ -1,0 +1,114 @@
+/*猜你喜欢*/
+.imageBox_title {
+    height: 25px;
+    width: 100%;
+    margin-top: 20px;
+    line-height: 25px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.imagebox_title_name{
+    display: inline-block;
+    font-size: 20px;
+    font-weight: bold;
+}
+.imageboxLink .wrap{
+    overflow: hidden;
+}
+.imageboxLink {
+    display: block;
+    width: 220px;
+    height: 410px;
+    overflow: hidden;
+    float: left;
+    margin-right: 24px;
+    color: #333;
+    margin-bottom: 24px;
+}
+.imageboxLink img{
+    width: 220px;
+    height: 330px;
+}
+.guessUlike{
+    min-width:1200px ;
+    height: auto;
+}
+.guessUlike:after{
+    content: ".";clear: both;display: block;height: 0;
+    overflow: hidden;visibility: hidden;
+}
+.wrap_hidden{
+    width:1230px ;
+}
+.goods_info {
+    height:74px;
+    position: absolute;
+    bottom: 0px;
+    line-height: 20px;
+    margin-top: 6px;
+    font-size: 14px;
+    width: 100%;
+    background: #fff;
+    padding: 0 8px;
+}
+.goods_info .fav_num {
+    font-size: 12px;
+    color: #999;
+    display: block;
+    margin-right: 40px;
+}
+.fav_num img{
+    width:16px;
+    height: 15px;
+    margin-top: 3px;
+}
+.goods_info .org_price {
+    font-size: 14px;
+    color: #666;
+    margin: 0 0 0 8px;
+    line-height: 25px;
+}
+.goods_info .org_price span {
+    text-decoration: line-through;
+    font-size: 14px;
+    color: #666;
+    margin: 0 0 0 8px;
+    line-height: 25px;
+}
+.price_info{
+    float: left;
+    color: #333;
+    margin-top: 3px;
+    font-weight: 700;
+    font-size: 16px;
+}
+/*最外面的div*/
+.wall_goods_box  {
+    width: 218px;
+    height: 408px;
+    border: 1px solid #f2f2f2;
+    background: #fff;
+    height: 410px;
+    float: left;
+    position: relative;
+    overflow: hidden;
+    margin: 0 25px 25px 0
+}
+
+.wall_goods_hover {
+    z-index: 5;
+    top: 306px;
+    height: 24px;
+    position: absolute;
+    left: 0;
+    width: 100px;
+    color: #fff;
+    line-height: 24px;
+    text-align: center;
+    cursor: pointer;
+    font-size: 14px;
+    width: 100%;
+    display: none;
+    background-color: rgba(255,85,119,.7);
+
+}

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>购物车</title>
+    <link rel="stylesheet" type="text/css" href="../css/iconfont1/iconfont.css">
+    <link rel="stylesheet" type="text/css" href="../css/public.css">
+    <link rel="stylesheet" type="text/css" href="../css/shoppingCar.css">
+    <script type="text/javascript" src="../js/jquery.js"></script>
+    <script type="text/javascript" src="../js/top.js"></script>
+    <script type="text/javascript" src="../js/sidebar.js"></script>
+    <script type="text/javascript" src="../js/shoppingCar.js"></script>
+    <script type="text/javascript" src="../js/cookie.js"></script>
+
+    <script src="../js/jquery.cookie.js" type="text/javascript" charset="utf-8"></script>
+</head>
+<body style="background: #f5f5f5;" ng-app>
+<div id="header" class="header"></div>
+<div class="headerLogo">
+    <div class="wrap">
+        <div class="logo_cart"></div>
+    </div>
+</div>
+<div class="detail" style="background: #fff;">
+    <div class="wrap">
+        <ul class="cartSlide">
+            <li>
+                <a href="###" class="item item_cur">
+                    全部商品
+                    <span class="num">0</span>
+                </a>
+            </li>
+            <li>
+                <a href="###" class="item">
+                    优惠
+                    <span class="num">0</span>
+                </a>
+            </li>
+            <li>
+                <a href="###" class="item">
+                    库存紧张
+                    <span class="num">0</span>
+                </a>
+            </li>
+        </ul>
+        <table class="cart_table">
+            <thead style="background: #F6F6F6;">
+                <tr>
+                    <th class="cart_table_check_wrap cart_alleft">
+                        <input type="checkbox" class="s_all tr_checkmr" id="topAll">
+                        <label for="topAll">全选</label>
+                    </th>
+                    <th class="cart_table_goods_wrap"></th>
+                    <th class="cart_table_goodsinfo_wrap">商品信息</th>
+                    <th>单价(元)</th>
+                    <th class="cart_table_goodsnum_wrap">数量</th>
+                    <th class="cart_table_goodssum_wrap">小计(元)</th>
+                    <th class="cart_table_goodsctrl_wrap">操作</th>
+                </tr>
+            </thead>
+            <tbody>
+            <!--添加商品-->
+            </tbody>
+            <tfoot>
+                <tr>
+                    <th class="cart_table_check_wrap cart_alleft">
+                        <input type="checkbox" class="s_all tr_checkmr" id="bottomAll">
+                        <label for="bottomAll">全选</label>
+                    </th>
+                    <th class="deleteAll">
+                        <a href="###" id="cartRemoveChecked" class="mr10 cart_hoverline cart_pregray">删除</a>
+                    </th>
+                    <th></th>
+                    <th></th>
+                    <th class="allNum">
+                        共有
+                        <span id="allNum">0</span>
+                        件商品，总计：
+                    </th>
+                    <th class="selectPrice">
+                        <span id="allPrice">¥ 0.00</span>
+                    </th>
+                    <th class="pay fr">
+                        <a href="###" id="payBtn">去付款</a>
+                    </th>
+                </tr>
+            </tfoot>
+        </table>
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,15 @@
+[ 2017-05-13T01:25:14+08:00 ] 127.0.0.1 /admin/manager/login
+ERR: 无法加载模块:Manager
+
+[ 2017-05-13T01:42:03+08:00 ] 127.0.0.1 /admin/admin/Public/Admin/images/cz.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000999s ]
+ERR: 无法加载模块:Admin
+
+[ 2017-05-13T01:42:03+08:00 ] 127.0.0.1 /admin/admin/Public/Admin/images/dl.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000789s ]
+ERR: 无法加载模块:Admin
+

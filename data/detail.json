@@ -1,0 +1,28 @@
+{
+  "shop":"杏杏依依",
+    "title":"【春季新款】套装 蕾丝三色飘逸袖连衣裙+紫色简约雪花绒风衣",
+  "small_img":["d_small1.jpg","d_small2.jpg","d_small3.jpg","d_small4.jpg","d_small5.jpg","d_small6.jpg","d_small7.jpg"],
+  "style":[{
+      "name":"风衣",
+      "url":"d_small1.jpg",
+      "price":"99",
+      "origin":"141.73",
+      "status":"204",
+      "size":["S","M","L"]
+    },{
+      "name":"套装",
+      "url":"d_small2.jpg",
+      "price":"199",
+      "origin":"171.58",
+      "status":"291",
+      "size":["S","M","L"]
+    },{
+      "name":"蕾丝裙",
+      "url":"d_small3.jpg",
+      "price":"225",
+      "origin":"312.86",
+      "status":"383",
+      "size":["S","M","L"]
+    }]
+}
+
